@@ -4,10 +4,6 @@
 #include "Grouand_Object.h"
 #include "Sup_Camel.h"
 
-void Sup_Camel::Show_Data()
-	{
-		std::cout << TE_Name<<" ";
-	}
 
 double Sup_Camel::Total_time()
 	{

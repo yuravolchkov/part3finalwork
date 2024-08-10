@@ -4,11 +4,7 @@
 #include "Grouand_Object.h"
 #include "Shoes.h"
 
-	void Shoes::Show_Data()
-	{
-		std::cout << TE_Name << " ";
-	}
-
+	
 	double Shoes::Total_time()
 	{
 		double Tt = 0;

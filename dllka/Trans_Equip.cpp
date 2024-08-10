@@ -2,10 +2,12 @@
 #include <string>
 #include <iostream>
 
-void Trans_Equip::Show_Data()
-	{
-	}
 double Trans_Equip::Total_time()
 	{
 		return 0;
 	}
+
+std::string Trans_Equip::Get_TE_Name()
+{
+	return TE_Name;
+}

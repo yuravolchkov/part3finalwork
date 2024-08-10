@@ -4,10 +4,6 @@
 #include "Air_Object.h"
 #include "Broom.h"
 
-	void Broom::Show_Data() 
-	{
-		std::cout << TE_Name << " ";
-	}
 	
 	double Broom::Total_time() 
 	{

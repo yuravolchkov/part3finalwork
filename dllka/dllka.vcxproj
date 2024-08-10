@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{c3177fd3-bbf4-4628-96c3-25dbd7b23cfa}</ProjectGuid>
+    <ProjectGuid>{7f356dfa-6615-449a-9b14-64ab42f2ec60}</ProjectGuid>
     <RootNamespace>dllka</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -144,6 +144,7 @@
     <ClInclude Include="Camel.h" />
     <ClInclude Include="Carpet_Plane.h" />
     <ClInclude Include="Centaur.h" />
+    <ClInclude Include="chg08-24.h" />
     <ClInclude Include="Eagle.h" />
     <ClInclude Include="Grouand_Object.h" />
     <ClInclude Include="Shoes.h" />

@@ -3,18 +3,13 @@
 #include <string>
 #include "Trans_Equip.h"
 #include "Air_Object.h"
-
-#ifndef WOKRBCH_LIB
-#define WOKRBCH_LIB_API __declspec(dllexport)
-#else
-#define WOKRBCH_LIB_API __declspec(dllimport)
-#endif
+#include "chg08-24.h"
 
 class Broom : public Air_Object
 {
-public:
+protected:
 	double Broom_1st_coef = 0.01, Broom_Distance;
+public:
 	WOKRBCH_LIB_API Broom(double Distance_OUT) : Broom_Distance(Distance_OUT), Air_Object(1, "Метла", "Air", 20) {};
-	WOKRBCH_LIB_API void Show_Data() override;
 	WOKRBCH_LIB_API double Total_time() override;
 };

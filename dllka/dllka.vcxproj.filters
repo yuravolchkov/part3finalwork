@@ -48,34 +48,37 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Air_Object.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Исходные файлы</Filter>
     </ClInclude>
     <ClInclude Include="Broom.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Исходные файлы</Filter>
     </ClInclude>
     <ClInclude Include="Camel.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Исходные файлы</Filter>
     </ClInclude>
     <ClInclude Include="Carpet_Plane.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Исходные файлы</Filter>
     </ClInclude>
     <ClInclude Include="Centaur.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="chg08-24.h">
+      <Filter>Исходные файлы</Filter>
     </ClInclude>
     <ClInclude Include="Eagle.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Исходные файлы</Filter>
     </ClInclude>
     <ClInclude Include="Grouand_Object.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Исходные файлы</Filter>
     </ClInclude>
     <ClInclude Include="Shoes.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Исходные файлы</Filter>
     </ClInclude>
     <ClInclude Include="Sup_Camel.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Исходные файлы</Filter>
     </ClInclude>
     <ClInclude Include="Trans_Equip.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Исходные файлы</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

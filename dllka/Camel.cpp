@@ -4,11 +4,6 @@
 #include "Grouand_Object.h"
 #include "Camel.h"
 
-void Camel::Show_Data()
-	{
-		std::cout << TE_Name << " ";
-	}
-
 double Camel::Total_time()
 	{
 		double Tt=0;

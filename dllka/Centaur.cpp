@@ -4,12 +4,7 @@
 #include "Grouand_Object.h"
 #include "Centaur.h"
 
-	void Centaur::Show_Data() 
-	{
-		std::cout << TE_Name << " ";
-	}
-
-	double Centaur::Total_time() 
+		double Centaur::Total_time() 
 	{
 		double Tt = 0;
 		int Qty_Stps = int(((Cent_Distance / TE_Speed) - int(Cent_Distance / TE_Speed) % int(Time_To_Rest)) / Time_To_Rest);
